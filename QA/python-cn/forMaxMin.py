@@ -1,6 +1,8 @@
 # coding: utf8
 """
     回答 https://groups.google.com/forum/?hl=fr#!topic/python-cn/UyXiBqEksXw
+    有图有真相：
+    https://picasaweb.google.com/lh/photo/xBw28tF68Oe6hIz4-gVEPg?feat=directlink
 """
 
 from collections import defaultdict
