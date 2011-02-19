@@ -66,7 +66,7 @@ for n in x:
     print n
     setup = s % n
     for name,test in tests.items():
-        result[name].append(timeit(test,setup,number=1000)*1000) # in ms
+        result[name].append(timeit(test,setup,number=1000)*1000) # in us
 print result
 import cPickle
 f = open('result.pickle','wb')
