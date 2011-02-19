@@ -1,10 +1,11 @@
 # coding: utf8
-from collections import defaultdict
 """
     回答 https://groups.google.com/forum/?hl=fr#!topic/python-cn/UyXiBqEksXw
 """
 
+from collections import defaultdict
 from timeit import timeit
+
 s = """
 from itertools import tee,imap
 
